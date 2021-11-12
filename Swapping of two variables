@@ -1,0 +1,32 @@
+# Alliswell
+Developed by S.Bavasri
+[OUTPUT 2](https://user-images.githubusercontent.com/94194453/141523349-80421ed9-4ff5-485c-8785-f83bc6884ddf.PNG)
+
+[OUTPUT 1](https://user-images.githubusercontent.com/94194453/141523023-274c8eac-18af-4c55-8682-cc173dfb7525.PNG)
+
+
+#include<stdio.h>
+int main()
+{
+	//variable declarations
+	int a,b;
+	
+	//Input values
+	printf("Enter the value of a: ");
+	scanf("%d",&a);
+	printf("Enter the value of b: ");
+	scanf("%d",&b);	
+	
+	//Numbers before swapping
+	printf("Before swapping... a: %d, b: %d\n",a,b);
+	
+	//swapping numbers
+	a = a+b;	//step 1
+	b = a-b;	//step 2
+	a = a-b; 	//step 3
+	
+	//Numbers after swapping 
+	printf("After swapping...  a: %d, b: %d\n",a,b);
+
+	return 0;
+}
