@@ -1,7 +1,8 @@
 # Alliswell
 Developed by S.Bavasri
 
-
+OUTPUT:
+(https://raw.githubusercontent.com/Bavasri/Alliswell/main/reverse.PNG)
 
 #include <stdio.h>
 #include <string.h>
