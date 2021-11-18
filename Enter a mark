@@ -1,0 +1,51 @@
+#Alliswell
+Developed by S.Bavasri
+
+Output 1:
+
+https://raw.githubusercontent.com/Bavasri/Alliswell/main/mark.PNG
+
+Output 2:
+
+https://raw.githubusercontent.com/Bavasri/Alliswell/main/mar.PNG
+
+Output 3:
+
+https://raw.githubusercontent.com/Bavasri/Alliswell/main/ma.PNG
+
+PROGRAM:
+
+#include<studio.h>
+int main()
+{
+ int mark1, mark2, mark3, mark4, mark5, per;
+
+ printf("Enter marks:");
+ scanf("%d%d%d%d%d",&mark1, &mark2, &mark3, &mark4, &mark5);
+ per (mark1 + mark2 + mark3 + mark4 + mark5)/5;
+
+  if (per>=85)
+  {
+    printf("Grade A");
+  }
+  else if(per>=70)
+  {
+    printf("Grade B");
+  }
+  else if(per>=55)
+  {
+    printf("Grade C");
+  }
+  else if (per>=40)
+  {
+
+    printf("Grade D");
+
+  }
+
+  else if(per<40)
+  {
+    print("Grade F");
+  }
+return 0;
+}
