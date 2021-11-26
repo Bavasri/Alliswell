@@ -1,0 +1,29 @@
+#Alliswell
+Developed by S.Bavasri
+
+PROGRAM:
+
+#include <stdio.h>
+int main()
+{
+int num;
+printf ("Enter a number: ");
+scanf("%d",&num); 
+switch (num)
+
+  {
+
+   case 0:
+     printf("ZERO");
+     break;
+
+   case 1:
+     printf ("ONE");
+     break;
+
+   default:
+     printf ("The number was not in the list");
+     break;
+  }
+ return 0;
+}
