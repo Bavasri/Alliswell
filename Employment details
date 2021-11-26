@@ -1,0 +1,28 @@
+#Alliswell
+Developed by S.Bavasri
+
+PROGRAM:
+#include<stdio.h>
+struct employee
+{
+    int age, phone number,salary;
+    char name[25];
+}emp[100];
+ 
+int main()
+{
+    int i,n;
+    printf("Enter the no of employees: \n");
+    scanf("%d",&n);
+    printf("Enter employee info as name , age , phone number, salary\n");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d %d %d %d",&emp[i].name,&emp[i].age,&emp[i].phone number,&emp[i].salary);
+    }
+    printf("\nName\tAge\tPhone Number\tSalary\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%d\t\t%d\t\t%d\t\t%d\n",emp[i].name,emp[i].age,emp[i]. phone number,emp[i].salary);
+    }
+  return 0;
+}
