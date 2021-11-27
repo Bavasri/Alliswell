@@ -42,6 +42,26 @@ else
     printf("\n\n Wrong Password"); 
     print("Enter 1 to retry & 0 to exit"); 
     scanf("%d",&main_exit);
+if (main_exit==1)
+{
+    system("cls"); 
+    main();
+
 }
+
+else if(main_exit=0)
+{
+    system("cls");
+    close();
+}
+else
+{
+    printf("\n Invalid"); 
+    fordelay(1000); 
+    system("cls"); 
+    goto login_try;
+
+}
+} return 0;
 }
 
